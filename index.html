@@ -418,13 +418,12 @@
 
     .screenshots-scroll {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1.5rem;
+      grid-template-columns: 1fr;
+      gap: 2rem;
       margin-top: 2rem;
-    }
-
-    @media (max-width: 680px) {
-      .screenshots-scroll { grid-template-columns: 1fr; }
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .screenshot-item {
